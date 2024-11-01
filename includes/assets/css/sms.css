@@ -1,0 +1,96 @@
+ /* Full-screen overlay */
+ #verification-popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Darker semi-transparent background */
+    z-index: 999; /* Ensures the overlay is on top of the content */
+}
+
+/* Popup container */
+#verification-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 30px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Soft shadow */
+    z-index: 1000; /* Popup should appear on top of the overlay */
+    width: 320px; /* Set a fixed width for a neat design */
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    animation: fadeIn 0.3s ease-in-out; /* Smooth fade-in animation */
+}
+
+/* Fade-in effect for the popup */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translate(-50%, -55%);
+    }
+    to {
+        opacity: 1;
+        transform: translate(-50%, -50%);
+    }
+}
+
+/* Close button */
+#close-popup {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #999;
+    cursor: pointer;
+    transition: color 0.2s ease; /* Transition effect on hover */
+}
+
+#close-popup:hover {
+    color: #333; /* Darker color on hover */
+}
+
+/* Popup header */
+#verification-popup h2 {
+    margin-top: 0;
+    font-size: 22px;
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+/* Input field */
+#verification_code {
+    width: 90%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    transition: border-color 0.3s ease;
+}
+
+#verification_code:focus {
+    outline: none;
+    border-color: #007cba; /* WooCommerce blue */
+}
+
+/* Verify button */
+#verify_code {
+    padding: 10px 20px;
+    background-color: #007cba; /* WooCommerce blue */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#verify_code:hover {
+    background-color: #005a8e; /* Darker blue on hover */
+}

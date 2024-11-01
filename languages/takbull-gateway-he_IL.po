@@ -1,0 +1,213 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: he_IL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n==2 ? 1 : n>10 && n%10==0 ? 2 : 3);\n"
+"X-Generator: Poedit 3.5\n"
+
+msgid "Cancel order"
+msgstr "בטל הזמנה"
+
+msgid "Enable/Disable"
+msgstr "הפעל?"
+
+msgid "Enable Takbull"
+msgstr "הפעל תשלום דרך תקבול"
+
+msgid "Number of payments"
+msgstr "מספר תשלומים"
+
+msgid "Close"
+msgstr "סגור"
+
+msgid "There was a problem connecting to the Takbull API endpoint"
+msgstr "אין תקשורת"
+
+msgid "Approved"
+msgstr "מאושר"
+
+msgid "Failed"
+msgstr "נכשל"
+
+msgid "Get Invoice"
+msgstr "הצג מסמך"
+
+msgid "Settings"
+msgstr "הגדרות"
+
+msgid "Takbull Bit"
+msgstr "תקבול BIT"
+
+msgid "Try paying again"
+msgstr "נסה שוב"
+
+msgid "Description"
+msgstr "תיאור"
+
+msgid "This controls the title which the user sees during checkout."
+msgstr "כותרת סוג תשלום שתוצג בצ'קאווט"
+
+msgid "This controls the description which the user sees during checkout."
+msgstr "תיאור סוג תשלום שיוצג בצ'קאווט"
+
+msgid "Get your API keys from your takbull account."
+msgstr "את המפתחות ניתן למשוך מהגדרות במערכת תקבול"
+
+msgid "Transactions"
+msgstr "עסקאות"
+
+msgid "Charge"
+msgstr "חייב"
+
+msgid "Takbull"
+msgstr "תקבול"
+
+msgid "To save your card securely for easier future payments, sign up for an account or log in to your existing account."
+msgstr "ניתן לשמור את הכרטיס בצורה מאובטח לרכישות הבאות"
+
+msgid "Min Cart"
+msgstr "סכום מינ של עגלה"
+
+msgid "Max Cart"
+msgstr "סכום מקס' של עגלה"
+
+msgid "Min Payments"
+msgstr "תשלום מינ'"
+
+msgid "Max Payments"
+msgstr "תשלום מקס'"
+
+msgid "+ Add row"
+msgstr "הוסף שורה"
+
+msgid "Remove selected row(s)"
+msgstr "מחק שורה/ות"
+
+msgid "Saved cards"
+msgstr "כרטיסים שמורים"
+
+msgid "Display Type"
+msgstr "סוג תצוגה"
+
+msgid "Select the way you want Payment gateway will be displied."
+msgstr "בחר את אופן הצגת מילוי אמצעי תשלום"
+
+msgid "Payment Setup"
+msgstr "הגדרות תשלום"
+
+msgid "Deal Type"
+msgstr "סוג עסקה"
+
+msgid "Enable payments with saved cards"
+msgstr "אפשר שמירת כרטיס בחשבון משתמש"
+
+msgid ""
+"When card token payments are enabled users get an option to store reference to credit card and can make future purchases without "
+"need to enter card details."
+msgstr "כאשר שמירת כרטיס מופעלת המשתמש יוכל להשתמש בו לרכישות הבאות"
+
+msgid "Set MAX number of payments allowed"
+msgstr "הגדר מספר תשלומים מקסימלי"
+
+msgid "Invoice Setup"
+msgstr "הגדרות מסמך חשבונאי"
+
+msgid "Create invoice"
+msgstr "צור מסמך"
+
+msgid "Enable Invoice creation."
+msgstr "אפשר יצירת מסמך"
+
+msgid "If enabled, invoice will create."
+msgstr "מסמך יופק בסיום רכישה"
+
+msgid "Document type"
+msgstr "סוג מסמך"
+
+msgid "Set document type."
+msgstr "הגדר סוג מסמסך"
+
+msgid "Tax included"
+msgstr "כולל מע\"מ"
+
+msgid "Extract tax from order total."
+msgstr "יתבצע חישוב מע\"מ מסה\"כ הזמנה"
+
+msgid "If enabled, tax will be extract from total price (17%)"
+msgstr "יחושב לפי 17% "
+
+msgid "Payments Fees"
+msgstr "עמלת תשלומים"
+
+msgid "Fees"
+msgstr "עמלות תשלומים"
+
+msgid "Yes"
+msgstr "כן"
+
+msgid "No"
+msgstr "לא"
+
+msgid "Activate Tax per product"
+msgstr "חשב מס לפי הגדרת מוצר"
+
+msgid "Get tax rate per product."
+msgstr "מס יחושב לפי מוצר"
+
+msgid "If enabled, tax will be extract from product. Tax included option should be turned on"
+msgstr "יתבצע חישוב מע\"מ לפי הגדרה של מור - יש להפעיל \"כולל מע\"מ\""
+
+msgid "Create Invoice for other payment gateways"
+msgstr "צור חשבונית עבור שער אמצעי תשלום"
+
+msgid "Create invoice for paied order."
+msgstr "תיוצר חשבונית עבור הזמנות ששולמו "
+
+msgid "If enabled, Invoice will be created as order marked processed (woocommerce default order state after payment)"
+msgstr "אם אופציה מופעלת הזמנות ששולמו (עברו למצב בטיפול/הושלם) תופק עבור חשבונית (לדוגמה PAYPAL)"
+
+msgid "%1$s - %2$s payments"
+msgstr "%1$s - %2$s תשלומים"
+
+msgid "Payments fee"
+msgstr "עמלת תשלומים"
+
+msgid "%1$s Payments fee"
+msgstr "עמלת %1$s תשלומים"
+
+msgid "payments"
+msgstr "תשלומים"
+
+msgid "SUSPENDED * Valid only to merchants with Sapak Number"
+msgstr "עסקה מושהית - לבעלי מספר ספק"
+
+msgid "Insert fee percentage, for example if customer choose 5 payments apply 2% you should set payments number to 5 and fee to 2."
+msgstr "הגדרת עמלת תשלומים, לדוגמה: עבור 5 תשלומים להכיל 2% עמלה יש להגדיר בתשלומים 5 ובעמלה 2."
+
+msgid "Bank wire transfer"
+msgstr "הוראת קבע בנקאית"
+
+msgid "Send Invoice SMS"
+msgstr "שלח חשבונית ב - sms"
+
+msgid "If enabled and customer provide valid mobile number, invoice will be send. Sms package requered"
+msgstr "אם אופציה מופעלת והלקוח סיפק מספר טלפון נייד תקין, ישלח קישור לחשבונית. שים לב דורש חבילת סמס"
+
+msgid "Enter Verification Code"
+msgstr "אנא הזן קוד אימות שנשלח למספר שציינת"
+
+msgid "Verify"
+msgstr "בצע אימות"
+
+msgid "Resend code in"
+msgstr "ניתן לבצע שליחה חוזרת בעוד"
+
+msgid "Resend Code"
+msgstr "שלח שוב"

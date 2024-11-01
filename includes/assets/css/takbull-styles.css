@@ -1,0 +1,252 @@
+.wc-stripe-elements-field, .wc-stripe-iban-element-field {
+    border: 1px solid #ddd;
+    margin: 5px 0;
+    padding: 5px;
+    background-color: #fff;
+    outline: 0
+}
+
+.takbull-iframe-loader {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite;
+    /* Safari */
+    animation: spin 2s linear infinite;
+}
+
+#payment .methods li.woocommerce-SavedPaymentMethods-token label {
+    display: inline
+}
+
+#payment .methods li.woocommerce-SavedPaymentMethods-new label {
+    display: inline
+}
+
+#add_payment_method #payment ul.payment_methods li img.stripe-icon, .woocommerce-checkout #payment ul.payment_methods li img.stripe-icon {
+    max-width: 40px;
+    padding-left: 3px;
+    margin: 0
+}
+
+#add_payment_method #payment ul.payment_methods li .stripe-credit-card-brand, .woocommerce-checkout #payment ul.payment_methods li .stripe-credit-card-brand {
+    position: absolute;
+    top: 50%;
+    margin-top: -10px;
+    right: 10px;
+    background: no-repeat url(../images/credit-card.svg);
+    display: block;
+    width: 30px;
+    height: 24px
+}
+
+#add_payment_method #payment ul.payment_methods li .stripe-visa-brand, .woocommerce-checkout #payment ul.payment_methods li .stripe-visa-brand {
+    position: absolute;
+    top: 50%;
+    margin-top: -10px;
+    right: 10px;
+    background: no-repeat url(../images/visa.svg);
+    display: block;
+    width: 30px;
+    height: 24px
+}
+
+#add_payment_method #payment ul.payment_methods li .stripe-amex-brand, .woocommerce-checkout #payment ul.payment_methods li .stripe-amex-brand {
+    position: absolute;
+    top: 50%;
+    margin-top: -10px;
+    right: 10px;
+    background: no-repeat url(../images/amex.svg);
+    display: block;
+    width: 30px;
+    height: 24px
+}
+
+#add_payment_method #payment ul.payment_methods li .stripe-diners-brand, .woocommerce-checkout #payment ul.payment_methods li .stripe-diners-brand {
+    position: absolute;
+    top: 50%;
+    margin-top: -10px;
+    right: 10px;
+    background: no-repeat url(../images/diners.svg);
+    display: block;
+    width: 30px;
+    height: 24px
+}
+
+#add_payment_method #payment ul.payment_methods li .stripe-discover-brand, .woocommerce-checkout #payment ul.payment_methods li .stripe-discover-brand {
+    position: absolute;
+    top: 50%;
+    margin-top: -10px;
+    right: 10px;
+    background: no-repeat url(../images/discover.svg);
+    display: block;
+    width: 30px;
+    height: 24px
+}
+
+#add_payment_method #payment ul.payment_methods li .stripe-jcb-brand, .woocommerce-checkout #payment ul.payment_methods li .stripe-jcb-brand {
+    position: absolute;
+    top: 50%;
+    margin-top: -10px;
+    right: 10px;
+    background: no-repeat url(../images/jcb.svg);
+    display: block;
+    width: 30px;
+    height: 24px
+}
+
+#add_payment_method #payment ul.payment_methods li .stripe-maestro-brand, .woocommerce-checkout #payment ul.payment_methods li .stripe-maestro-brand {
+    position: absolute;
+    top: 50%;
+    margin-top: -10px;
+    right: 10px;
+    background: no-repeat url(../images/maestro.svg);
+    display: block;
+    width: 30px;
+    height: 24px
+}
+
+#add_payment_method #payment ul.payment_methods li .stripe-mastercard-brand, .woocommerce-checkout #payment ul.payment_methods li .stripe-mastercard-brand {
+    position: absolute;
+    top: 50%;
+    margin-top: -10px;
+    right: 10px;
+    background: no-repeat url(../images/mastercard.svg);
+    display: block;
+    width: 30px;
+    height: 24px
+}
+
+#add_payment_method #payment ul.payment_methods .stripe-card-group, .woocommerce-checkout #payment ul.payment_methods .stripe-card-group {
+    position: relative
+}
+
+.woocommerce-SavedPaymentMethods-token .stripe-source-errors .woocommerce-error {
+    margin-top: 1em;
+    margin-bottom: 2em
+}
+
+
+/* Absolute Center Spinner */
+.loading {
+    position: fixed;
+    z-index: 999;
+    height: 2em;
+    width: 2em;
+    overflow: show;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+  
+  /* Transparent Overlay */
+  .loading:before {
+    content: '';
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+      background: radial-gradient(rgba(20, 20, 20,.8), rgba(0, 0, 0, .8));
+  
+    background: -webkit-radial-gradient(rgba(20, 20, 20,.8), rgba(0, 0, 0,.8));
+  }
+  
+  /* :not(:required) hides these rules from IE9 and below */
+  .loading:not(:required) {
+    /* hide "loading..." text */
+    font: 0/0 a;
+    color: transparent;
+    text-shadow: none;
+    background-color: transparent;
+    border: 0;
+  }
+  
+  .loading:not(:required):after {
+    content: 'Loading....';
+    display: block;
+    font-size: 10px;
+    width: 1em;
+    height: 1em;
+    margin-top: -0.5em;
+    -webkit-animation: spinner 150ms infinite linear;
+    -moz-animation: spinner 150ms infinite linear;
+    -ms-animation: spinner 150ms infinite linear;
+    -o-animation: spinner 150ms infinite linear;
+    animation: spinner 150ms infinite linear;
+    border-radius: 0.5em;
+    -webkit-box-shadow: rgba(255,255,255, 0.75) 1.5em 0 0 0, rgba(255,255,255, 0.75) 1.1em 1.1em 0 0, rgba(255,255,255, 0.75) 0 1.5em 0 0, rgba(255,255,255, 0.75) -1.1em 1.1em 0 0, rgba(255,255,255, 0.75) -1.5em 0 0 0, rgba(255,255,255, 0.75) -1.1em -1.1em 0 0, rgba(255,255,255, 0.75) 0 -1.5em 0 0, rgba(255,255,255, 0.75) 1.1em -1.1em 0 0;
+  box-shadow: rgba(255,255,255, 0.75) 1.5em 0 0 0, rgba(255,255,255, 0.75) 1.1em 1.1em 0 0, rgba(255,255,255, 0.75) 0 1.5em 0 0, rgba(255,255,255, 0.75) -1.1em 1.1em 0 0, rgba(255,255,255, 0.75) -1.5em 0 0 0, rgba(255,255,255, 0.75) -1.1em -1.1em 0 0, rgba(255,255,255, 0.75) 0 -1.5em 0 0, rgba(255,255,255, 0.75) 1.1em -1.1em 0 0;
+  }
+  
+  /* Animation */
+  
+  @-webkit-keyframes spinner {
+    0% {
+      -webkit-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -ms-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+      -moz-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+  @-moz-keyframes spinner {
+    0% {
+      -webkit-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -ms-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+      -moz-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+  @-o-keyframes spinner {
+    0% {
+      -webkit-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -ms-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+      -moz-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+  @keyframes spinner {
+    0% {
+      -webkit-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -ms-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+      -moz-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
